@@ -1,0 +1,430 @@
+*{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+li{
+    display: block;
+    float: left;
+    padding: 20px;
+}
+
+.main-nav{
+    /* background-color: green; */
+   
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center; 
+    
+}
+
+.main-nav1{
+    background-color: #4bb44e;
+    width: 80%;
+    padding-left: 400px;
+    align-items: center;
+    
+    text-align: right;
+
+}
+
+.main-nav2 button{
+    width: 120px;
+    border-radius: 40px;
+    margin-left: 40px;
+    padding: 10px;
+    
+
+}
+
+
+    
+
+.main-nav2{
+    display: flex;
+    padding: 15px;
+    background-color: rgb(3, 81, 3);
+    width: 800px;
+    align-items: center;
+    
+    
+}
+
+.nav-Business{
+    background-color: black;
+}
+
+
+
+.nav-partner{
+    padding-left: 600px;
+
+}
+
+.sub-nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 400px;
+    padding-right: 600px;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    align-items: center;
+    height: 150px;
+}
+
+
+/* header img  */
+
+header img {
+    width: 100%;
+    height: 1000px;
+}
+
+/* section white with 3 card and background image */
+
+.section-white{
+    width: 100%;
+    height: 900px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    
+}
+
+.card1{
+    padding-left: 350px;
+}
+.card3{
+   padding-right: 350px;
+}
+
+
+/* section with background image */
+
+.mid-section{
+    background-image: url(https://www.gloworld.com/themes/glo/assets/imgs/background/driving-innovation-across-africa.png);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.mid-section-div{
+    background-color: black;
+    height: 800px;
+    opacity: 0.6;
+    position: relative;
+}
+
+.mid-sub-div{
+    text-align: center;
+    color: white;
+    padding-top: 300px;
+    position: absolute;
+   top: 2200px;
+    left: 35%;
+}
+
+.mid-sub-div h2{
+    font-size: 70px;
+    font-family: Rubik, sans-serif !important;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.mid-sub-div p{
+    font-size: 25px;
+    font-family: Rubik, sans-serif !important;
+    font-weight: 400;
+    color: #fff;
+   
+}
+
+.mid-sub-div button{
+    background-color: #4bb44e;
+    padding: 30px;
+    width: 400px;
+    border-radius: 40px;
+    color: #fff;
+    font-family: Rubik, sans-serif !important;
+    font-size: 30px;
+    border: none;
+
+}
+
+/* section 3 with green text */
+.div-text{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.div-text h1{
+    font-size: 70px;
+    color: #4bb44e;
+    font-family: Rubik, sans-serif !important;
+    font-weight: bolder;
+}
+
+.div-text p{
+    font-size: 30px;
+    font-family: Rubik, sans-serif !important;
+    font-weight: 300;
+    color: gray;
+
+}
+
+/* sections with 3 cards */
+
+.sub-card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.sub-card1{
+    border-radius: 5px;
+    padding-left: 250px;
+    border: none;
+    box-sizing: border-box;
+    
+    position: relative;
+}
+.sub-card1:hover{
+    box-shadow: rgb(16, 11, 11);
+    cursor: pointer;
+    transition-duration: 0s;
+
+}
+
+.sub-card-text1{
+    position: absolute;
+    top: 470px;
+    width: 75%;
+    height: 370px;
+    background-color: #fff;
+   padding-left: 20px;
+   text-align: left;
+
+}
+
+.sub-card-text1 h2{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Rubik, sans-serif !important;
+
+}
+.sub-card-text1 p{
+    font-size: 20px;
+    font-family: Rubik, sans-serif !important;
+    font-weight: 300px;
+}
+.sub-card2{
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+    
+    position: relative;
+}
+.sub-card2:hover{
+    box-shadow: rgb(16, 11, 11);
+    cursor: pointer;
+    transition-duration: 0s;
+
+}
+
+.sub-card-text2{
+    position: absolute;
+    top: 470px;
+    width: 600px;
+    height: 370px;
+    background-color: #fff;
+   text-align: left;
+
+}
+
+.sub-card-text2 h2{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Rubik, sans-serif !important;
+    padding-left: 20px;
+    
+
+}
+
+.sub-card-text2 p{
+    font-size: 25px;
+    font-family: Rubik, sans-serif !important;
+    padding-left: 20px;
+}
+
+.sub-card3{
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+
+}
+.sub-card3:hover{
+    box-shadow: rgb(68, 51, 51);
+    cursor: pointer;
+    transform:scale(1.1);
+    transition:.2s ease;
+    border: none;
+    padding-left: 50px;
+}
+
+.sub-card-text3{
+    position: absolute;
+    top: 470px;
+    width: 600px;
+    height: 370px;
+    background-color: #fff;
+   text-align: left;
+   padding-left: 20px;
+   
+
+}
+
+.sub-card-text3 h2{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Rubik, sans-serif !important;
+    padding-left: 20px;
+
+}
+
+.sub-card-text3 p{
+    font-size: 25px;
+    font-family: Rubik, sans-serif !important;
+    padding-left: 20px;
+}
+
+/* section 5 with center button */
+
+.mid-btn{
+    text-align: center;
+}
+
+.mid-btn button{
+    width: 200px;
+    padding: 20px;
+    border-radius: 45px;
+    background-color: #4bb44e;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+}
+
+ /* section 6 background image with center button */
+
+ .house-div{
+    margin-top: 100px;
+    background-image: url(https://www.gloworld.com/themes/glo/assets/imgs/background/get-your-business-on-fast-forward.png);
+    height: 800px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+ }
+
+ .house-div-text{
+    position: absolute;
+    top: 5000px;
+    left: 35%;
+    text-align: center;
+    color: #fff;
+ }
+
+ .house-div-text h1{
+    font-size: 55px;
+    font-family: Rubik, sans-serif !important;
+    font-weight: bolder;
+ }
+
+ .house-div-text p{
+    font-size: 25px;
+    font-family: Rubik, sans-serif !important;
+    font-weight: 100;
+    
+ }
+
+ .house-div-text button{
+    padding: 25px;
+    border-radius: 50px;
+    width: 350px;
+    border: none;
+    font-size: 30px;
+    color: #4bb44e;
+
+ }
+
+ /* footer sections */
+
+ footer{
+    background-color:black;
+    color: #fff;
+    padding-top: 50px;
+    height: 900px;
+ }
+
+ .footer-main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .footer-main h2{
+    font-size: 35px;
+    font-family: Rubik, sans-serif !important;
+    font-weight: 300;
+ }
+ .footer-main p{
+    font-size: 25px;
+    font-family: Rubik, sans-serif !important;
+    font-weight: 300;
+ }
+ .footer-sub{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 200px;
+ }
+
+ .footer-sub1 p{
+    font-size: 30px;
+ }
+
+ .footer-sub2 img{
+    display: inline;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 50px;
+    margin-bottom: 20px;
+ }
+
+
+
+
+
+
+
+
+
+
